@@ -1,6 +1,6 @@
 ---
 title: 本地上传到Github
-date: 2017-07-18
+date: 2017-7-18
 tags: [Github]
 ---
 

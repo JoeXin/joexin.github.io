@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Xin'Blog
-subtitle:
-description: 许多话，只是写给本身看，仅此罢了。
-author: Joe Xin
+title: Xin'Blog                              # 博客名称
+subtitle:                                    # 根据主题的不同，有的会显示有的不会显示
+description: 许多话，只是写给本身看，仅此罢了。 # 网站的关键词
+author: Joe Xin                              # 作者名称
 language: zh-Hans
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+url: http://yoursite.com                     # 站点链接
+root: /                                      # 根目录的位置
+permalink: :year/:month/:day/:title/         # 生成的链接的格式   
+permalink_defaults:                          # 生成链接中各部分的默认值
 
 # Directory
 source_dir: source
@@ -28,8 +28,8 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
+new_post_name: :title.md # File name of new posts   # 新的博文的文件名
+default_layout: post                                # 默认布局
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -37,14 +37,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
+highlight:                                    # 代码块的设置
+  enable: true        
   line_number: true
   auto_detect: false
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: uncategorized                # 如果撰写文章时没有设置分类，默认的分类选择
 category_map:
 tag_map:
 
@@ -64,6 +64,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
+Plugins: hexo-generator-feed
 theme: next
 
 # Deployment
@@ -72,7 +74,11 @@ deploy:
   type: git
   repo: git@github.com:joexin/joexin.github.io.git
   branch: master
-  
+
+feed:                       # 实现博客订阅功能
+  type: atom
+  path: atom.xml
+  limit: 2
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:

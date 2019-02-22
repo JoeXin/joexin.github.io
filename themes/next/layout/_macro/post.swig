@@ -314,7 +314,7 @@
 
     <div>
       {% if not is_index %}
-        {% include 'wechat-subscriber.swig' %}
+        {% include 'my-copyright.swig' %}
       {% endif %}
     </div>
 

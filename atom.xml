@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-23T09:09:43.466Z</updated>
+  <updated>2019-02-22T13:32:49.297Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello</title>
+    <link href="http://yoursite.com/2019/02/22/Hello/"/>
+    <id>http://yoursite.com/2019/02/22/Hello/</id>
+    <published>2019-02-21T16:00:00.000Z</published>
+    <updated>2019-02-22T13:32:49.297Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h2><p>嗯，之前好些功能都废除  重新的修改了一下博客</p><p>发现一年比及一年写的少了</p><p>多敲敲了看来</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Hello&quot;&gt;&lt;a href=&quot;#Hello&quot; class=&quot;headerlink&quot; title=&quot;Hello&quot;&gt;&lt;/a&gt;Hello&lt;/h2&gt;&lt;p&gt;嗯，之前好些功能都废除  重新的修改了一下博客&lt;/p&gt;
+&lt;p&gt;发现一年比及一年写的少了&lt;/p&gt;
+&lt;p&gt;多敲敲了看来&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>工作中用到的时间函数</title>
@@ -36,29 +61,6 @@
     
     
       <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>本地上传到Github</title>
-    <link href="http://yoursite.com/2017/07/18/uploadGithub/"/>
-    <id>http://yoursite.com/2017/07/18/uploadGithub/</id>
-    <published>2017-07-17T16:00:00.000Z</published>
-    <updated>2017-07-18T15:48:49.855Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="本地上传到github的步骤说明"><a href="#本地上传到github的步骤说明" class="headerlink" title="本地上传到github的步骤说明"></a>本地上传到github的步骤说明</h2><h5 id="第一步：-建立git仓库"><a href="#第一步：-建立git仓库" class="headerlink" title="第一步： 建立git仓库"></a>第一步： 建立git仓库</h5><p><code>git init</code></p><h5 id="第二步：-将项目的所有文件添加到仓库中"><a href="#第二步：-将项目的所有文件添加到仓库中" class="headerlink" title="第二步： 将项目的所有文件添加到仓库中"></a>第二步： 将项目的所有文件添加到仓库中</h5><p><code>git add .</code></p><p>如果想添加特定的文件，把.换成特定的文件名即可。</p><h4 id="第三步：-将add-文件commint-到仓库中去"><a href="#第三步：-将add-文件commint-到仓库中去" class="headerlink" title="第三步： 将add 文件commint 到仓库中去"></a>第三步： 将add 文件commint 到仓库中去</h4><p><code>git commint -m ‘注释语句’</code></p><h5 id="第四步：在github-上创建自己的repository"><a href="#第四步：在github-上创建自己的repository" class="headerlink" title="第四步：在github 上创建自己的repository"></a>第四步：在github 上创建自己的repository</h5><h5 id="第五步：将本地的仓库关联到githhub上"><a href="#第五步：将本地的仓库关联到githhub上" class="headerlink" title="第五步：将本地的仓库关联到githhub上"></a>第五步：将本地的仓库关联到githhub上</h5><h5 id="第六步：-上传前，要记得pull-一下"><a href="#第六步：-上传前，要记得pull-一下" class="headerlink" title="第六步： 上传前，要记得pull 一下."></a>第六步： 上传前，要记得pull 一下.</h5><p><code>git pull origin master</code> </p><h5 id="第七步：上传代码到github远程仓库"><a href="#第七步：上传代码到github远程仓库" class="headerlink" title="第七步：上传代码到github远程仓库"></a>第七步：上传代码到github远程仓库</h5><p><code>git push -u origin master</code></p><p>执行完后，如果没有异常，等待执行完就上传成功了，中间可能会让你输入Username和Password，你只要输入github的账号和密码就行了</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;本地上传到github的步骤说明&quot;&gt;&lt;a href=&quot;#本地上传到github的步骤说明&quot; class=&quot;headerlink&quot; title=&quot;本地上传到github的步骤说明&quot;&gt;&lt;/a&gt;本地上传到github的步骤说明&lt;/h2&gt;&lt;h5 id=&quot;第一步：-建立gi
-      
-    
-    </summary>
-    
-    
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
     
   </entry>
   

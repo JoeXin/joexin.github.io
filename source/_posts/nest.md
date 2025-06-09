@@ -36,8 +36,30 @@ nest new project-name
 
 
 `
-cd project-name
-npm run start
+cd project-name 
+npm run start 
 `
 
 现在，你可以在浏览器中访问 http://localhost:3000，你应该会看到一个欢迎页面。
+
+
+创建控制器
+使用 Nest CLI 生成一个新的控制器：
+
+`
+nest g controller users
+`
+
+这个命令将创建一个名为 users 的控制器，并生成相应的路由和控制器逻辑。
+
+创建服务
+
+使用 Nest CLI 生成一个新的服务：
+
+`
+nest g service users
+`
+
+这个命令将创建一个名为 users 的服务，并生成相应的服务逻辑。
+
+ 

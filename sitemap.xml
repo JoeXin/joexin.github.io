@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/02/22/hello-world/</loc>
+    
+    <lastmod>2025-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/05/25/first/</loc>
     
     <lastmod>2025-06-09</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>http://yoursite.com/2017/05/29/Jsjump/</loc>
-    
-    <lastmod>2025-06-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2025/06/05/hello-world/</loc>
     
     <lastmod>2025-06-05</lastmod>
     

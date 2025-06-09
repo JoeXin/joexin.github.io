@@ -57,15 +57,15 @@ gulp.task('minify-js', function (done) {
 gulp.task('minify-images', function (done) {
     gulp.src('./public/images/**/*.*')
         .pipe(imagemin([
-            imagemin.gifsicle({ interlaced: true }),
+            // imagemin.gifsicle({ interlaced: true }),
           //  imagemin.jpegtran({ progressive: true }),
-            imagemin.optipng({ optimizationLevel: 5 }),
-            imagemin.svgo({
-                plugins: [
-                    { removeViewBox: true },
-                    { cleanupIDs: false }
-                ]
-            })
+            // imagemin.optipng({ optimizationLevel: 5 }),
+            // imagemin.svgo({
+            //     plugins: [
+            //         { removeViewBox: true },
+            //         { cleanupIDs: false }
+            //     ]
+            // })
         ]))
         .pipe(gulp.dest('./public/images'));
     done();

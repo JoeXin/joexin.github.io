@@ -47,7 +47,7 @@ tags: [Markdown]
 
 插入链接  [hao123](http://www.hao123.com)
 
-插入图片 ![Mou icon](http://mouapp.com/Mou_128.png)
+插入图片 ![Mou icon](https://placehold.co/600x400/png)
 
 ### 粗体与斜体
 

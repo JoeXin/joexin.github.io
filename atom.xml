@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Xin&#39;Blog</title>
+  
+  
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2025-06-05T09:33:18.083Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Joe Xin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2025/06/05/hello-world/"/>
+    <id>http://yoursite.com/2025/06/05/hello-world/</id>
+    <published>2025-06-05T09:33:18.083Z</published>
+    <updated>2025-06-05T09:33:18.083Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nest使用</title>
+    <link href="http://yoursite.com/2025/06/04/nest/"/>
+    <id>http://yoursite.com/2025/06/04/nest/</id>
+    <published>2025-06-03T16:00:00.000Z</published>
+    <updated>2025-06-09T07:35:28.307Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="安装-Node-js-和-npm"><a href="#安装-Node-js-和-npm" class="headerlink" title="安装 Node.js 和 npm"></a>安装 Node.js 和 npm</h4><p>首先，确保你的系统上安装了 Node.js 和 npm。你可以通过在终端或命令提示符中运行以下命令来检查它们是否已安装：</p><p><code>node -v npm -v</code></p><p>如果未安装，请从 Node.js 官网 下载并安装。</p><h4 id="安装-Nest-CLI"><a href="#安装-Nest-CLI" class="headerlink" title="安装 Nest CLI"></a>安装 Nest CLI</h4><p>Nest CLI 是一个命令行工具，用于快速创建和管理 NestJS 项目。安装完成后，你可以使用它来生成项目、服务和控制器等。</p><p><code>npm i -g @nestjs/cli</code></p><p>创建一个新的 Nest 项目<br>使用 Nest CLI 创建一个新的项目：</p><p><code>nest new project-name</code></p><p>将 project-name 替换为你的项目名称。这将创建一个新的目录，并在其中生成一个基本的 NestJS 项目结构。</p><p>启动开发服务器<br>进入项目目录并启动开发服务器：</p><p><code>cd project-name  npm run start </code></p><p>现在，你可以在浏览器中访问 <a href="http://localhost:3000，你应该会看到一个欢迎页面。">http://localhost:3000，你应该会看到一个欢迎页面。</a></p><p>创建控制器<br>使用 Nest CLI 生成一个新的控制器：</p><p><code>nest g controller users</code></p><p>这个命令将创建一个名为 users 的控制器，并生成相应的路由和控制器逻辑。</p><p>创建服务</p><p>使用 Nest CLI 生成一个新的服务：</p><p><code>nest g service users</code></p><p>这个命令将创建一个名为 users 的服务，并生成相应的服务逻辑。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;安装-Node-js-和-npm&quot;&gt;&lt;a href=&quot;#安装-Node-js-和-npm&quot; class=&quot;headerlink&quot; title=&quot;安装 Node.js 和 npm&quot;&gt;&lt;/a&gt;安装 Node.js 和 npm&lt;/h4&gt;&lt;p&gt;首先，确保你的系统上安装了 </summary>
+      
+    
+    
+    
+    
+    <category term="后台" scheme="http://yoursite.com/tags/%E5%90%8E%E5%8F%B0/"/>
+    
+  </entry>
+  
+</feed>

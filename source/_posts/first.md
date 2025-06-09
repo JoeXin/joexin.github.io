@@ -41,7 +41,11 @@ tags: [Markdown]
 
 ### 图片与链接
 
-图片的格式为: ![](){ImgCap}{/ImgCap}
+图片的格式为: 
+
+`
+![](){ImgCap}{/ImgCap}
+`
 
 链接的格式为: []()
 

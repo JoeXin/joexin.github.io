@@ -6,6 +6,14 @@
     "version": "7.3.0",
     "build": "hexo g && gulp && hexo d"
   },
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "start": "hexo server",
+    "server": "hexo server",
+    "full": "hexo clean && hexo generate && hexo deploy"
+  },
   "dependencies": {
     "hexo": "^7.2.0",
     "hexo-browsersync": "^0.3.0",

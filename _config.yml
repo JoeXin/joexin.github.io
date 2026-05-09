@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://joexin.github.io                   # 站点链接
+url: https://www.joexin.cn                   # 站点链接
 # root: /                                      # 根目录的位置
 permalink: :year/:month/:day/:title/         # 生成的链接的格式   
 permalink_defaults:                          # 生成链接中各部分的默认值

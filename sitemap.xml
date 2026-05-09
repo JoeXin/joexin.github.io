@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.joexin.cn/2020/03/10/vue-router/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.joexin.cn/2017/07/18/uploadGithub/</loc>
     
     <lastmod>2026-05-09</lastmod>
@@ -20,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.joexin.cn/categories/index.html</loc>
+    <loc>https://www.joexin.cn/2020/03/10/vue-router/</loc>
     
     <lastmod>2026-05-09</lastmod>
     
@@ -38,16 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.joexin.cn/2019/05/24/clickgithub/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.joexin.cn/2017/05/25/first/</loc>
+    <loc>https://www.joexin.cn/categories/index.html</loc>
     
     <lastmod>2026-05-09</lastmod>
     
@@ -66,6 +48,24 @@
   
   <url>
     <loc>https://www.joexin.cn/2019/02/22/hello-world/</loc>
+    
+    <lastmod>2026-05-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.joexin.cn/2017/05/25/first/</loc>
+    
+    <lastmod>2026-05-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.joexin.cn/2019/05/24/clickgithub/</loc>
     
     <lastmod>2026-05-09</lastmod>
     
@@ -128,13 +128,6 @@
 
   
   <url>
-    <loc>https://www.joexin.cn/tags/GitHub/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.joexin.cn/tags/JavaScript/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -149,13 +142,6 @@
   </url>
   
   <url>
-    <loc>https://www.joexin.cn/tags/Markdown/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.joexin.cn/tags/es6/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,14 +149,28 @@
   </url>
   
   <url>
-    <loc>https://www.joexin.cn/tags/%E5%90%8E%E5%8F%B0/</loc>
+    <loc>https://www.joexin.cn/tags/Github/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.joexin.cn/tags/Github/</loc>
+    <loc>https://www.joexin.cn/tags/Markdown/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.joexin.cn/tags/GitHub/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.joexin.cn/tags/%E5%90%8E%E5%8F%B0/</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

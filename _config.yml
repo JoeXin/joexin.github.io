@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com                     # 站点链接
+url: https://joexin.github.io                   # 站点链接
 # root: /                                      # 根目录的位置
 permalink: :year/:month/:day/:title/         # 生成的链接的格式   
 permalink_defaults:                          # 生成链接中各部分的默认值
@@ -99,7 +99,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-Plugins: hexo-generator-feed
+plugins:
+  - hexo-generator-feed
 theme: next
 # theme: solitude
 
@@ -119,7 +120,7 @@ feed:                       # 实现博客订阅功能
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-enable: true
+  enable: true
 app_id: AWUJspJ0osglcFpiek5dQwbS-gzGzoHsz
 app_key: qqOWPqnnAonFrWt3WJm8UcRs
 

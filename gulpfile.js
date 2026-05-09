@@ -77,7 +77,7 @@ gulp.task('minify-images', function (done) {
 //]);
 //4.0以后的写法
 // 执行 gulp 命令时执行的任务
-gulp.task('default', gulp.series(gulp.parallel('minify-html', 'minify-css', 'minify-js', 'minify-images')), function () {
+gulp.task('default', gulp.series(gulp.parallel('minify-html', 'minify-js', 'minify-images')), function () {
     console.log("----------gulp Finished----------");
     // Do something after a, b, and c are finished.
 });
